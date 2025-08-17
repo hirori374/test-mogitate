@@ -1,0 +1,103 @@
+.register__inner {
+    width: 60%;
+    margin: 0 auto;
+}
+.register-form {
+    margin: 30px 0;
+}
+.form__group {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.form__group-title {
+    margin: 10px 0;
+}
+.form__label--required {
+    margin: 0 5px;
+    padding: 3px 5px;
+    color: #fff;
+    font-size: 12px;
+    background-color: #ff0000;
+}
+.form__label--possible {
+    color: #ff0000;
+    font-size: 12px;
+}
+.form__error-message {
+    display: block;
+    padding-top: 5px;
+    color: #ff0000;
+    font-size: 14px;
+}
+.form__input--text input,
+.form__input--textarea textarea {
+    width: 100%;
+    padding: 10px;
+    border: #EBE4DE 1px solid;;
+}
+.form__input--file input{
+    display: none;
+}
+.form__input--file label {
+    padding: 5px;
+    background-color: #e2e0df;
+    border: #989897 1px solid;
+    border-radius: 2px;
+    font-size: 12px;
+    cursor: pointer;
+}
+.form__input--checkbox label {
+    display: inline-block;
+    margin-right: 30px;
+    cursor: pointer;
+}
+.form__input--checkbox input {
+    display: none;
+}
+.check-custom {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #4c4c4c;
+    background-color: #fff;
+    border-radius: 50%;
+}
+.form__input--checkbox input:checked+.check-custom {
+    color: #fff;
+    background-color: #4c4c4c;
+    border-color: #4c4c4c;
+    position: relative;
+}
+.form__input--checkbox input:checked+.check-custom::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: .3em;
+    left: .2em;
+    width: 10px;
+    height: 5px;
+    border-left: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    transform: rotate(-45deg);
+}
+.form__button {
+    display: flex;
+    justify-content: center;
+}
+.form__button-back,
+.form__button-submit {
+    width: 25%;
+    margin: 10px;
+    padding: 10px;
+    background-color: #e1dfde;
+    border: none;
+    border-radius: 2px;
+    box-shadow: 2px 2px 2px #EBE4DE;
+    cursor: pointer;
+}
+.form__button-back {
+    background-color: #e1dfde;
+}
+.form__button-submit {
+    background-color: #F5C800;
+}

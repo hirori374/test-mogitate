@@ -1,0 +1,146 @@
+.detail-content {
+    width: 60%;
+    margin: 0 auto;
+}
+.route__link {
+    width: 100%;
+    display: flex;
+    font-size: 14px;
+}
+.products__link {
+    text-decoration: none;
+    color: #79b2e5;
+    padding: 0 5px;
+}
+.edit-form {
+    width: 100%;
+    margin: 10px 0;
+}
+.form-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+.form__error {
+    padding-top: 5px;
+    color: #ff0000;
+    font-size: 14px;
+}
+.form-image,
+.form-items {
+    width: 50%;
+    padding: 5px;
+}
+.form-input__img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+.form-image input {
+    display: none;
+}
+.file-select__button {
+    padding: 5px;
+    background-color: #e2e0df;
+    border: #989897 1px solid;
+    border-radius: 2px;
+    font-size: 12px;
+    cursor: pointer;
+}
+.file-selected__name {
+    padding-left: 10px;
+    color: #b9b9b9;
+    font-size: 14px;
+}
+.form-items {
+    padding-left: 10px;
+}
+.form-input__text {
+    width: 100%;
+    margin: 5px 0 10px;
+    padding: 5px 10px;
+    border: #b9b9b9 1px solid;
+    border-radius: 3px;
+}
+.form-input__checkbox label {
+    display: inline-block;
+    margin: 20px 30px 0 0;
+    cursor: pointer;
+}
+.form-input__checkbox input {
+    display: none;
+}
+.check-custom {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #4c4c4c;
+    background-color: #fff;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.form-input__checkbox input:checked+.check-custom {
+    color: #fff;
+    background-color: #4c4c4c;
+    border-color: #4c4c4c;
+    position: relative;
+}
+.form-input__checkbox input:checked+.check-custom::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: .3em;
+    left: .2em;
+    width: 10px;
+    height: 5px;
+    border-left: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    transform: rotate(-45deg);
+}
+.form-description {
+    margin: 10px 0;
+}
+.form-input__textarea {
+    width: 100%;
+    margin: 5px 0 10px;
+    padding: 5px 10px;
+    border: #b9b9b9 1px solid;
+    border-radius: 3px;
+}
+.form__button {
+    position: relative;
+}
+.edit-form__button {
+    display: flex;
+    justify-content: center;
+}
+.edit-form__button-back,
+.edit-form__button-submit {
+    width: 25%;
+    margin: 10px;
+    padding: 10px;
+    background-color: #e1dfde;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px #EBE4DE;
+    cursor: pointer;
+}
+.edit-form__button-back {
+    background-color: #e1dfde;
+}
+.edit-form__button-submit {
+    background-color: #F5C800;
+}
+.delete-form__button {
+    position: absolute;
+    top: 80%;
+    right: 20%;
+}
+.delete-form__button-submit {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.delete-form__button img {
+    width: 30px;
+    height: 30px;
+}
