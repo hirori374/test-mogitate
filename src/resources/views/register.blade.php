@@ -50,9 +50,9 @@
           <span class="form__label--required">必須</span>
         </div>
         <div class="form__group-content">
-          <img class="form-input__img" src="{{ session('tmp_image') ? asset('storage/' . session('tmp_image')) : '' }} "alt="">
           <div class="form__input--file">
-            <label for="image"><input type="file" name="image" id="image"><span>ファイルを選択</span></label>
+            <label for="image">
+              <img class="form-input__img" src="{{ session('image') ? asset('storage/' . session('image')) : '' }} "alt=""><input type="file" name="image" id="image"></label>
             <span class="file-selected__name"></span>
           </div>
           <div class="form__error">

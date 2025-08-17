@@ -35,17 +35,6 @@
     padding: 10px;
     border: #EBE4DE 1px solid;;
 }
-.form__input--file input{
-    display: none;
-}
-.form__input--file label {
-    padding: 5px;
-    background-color: #e2e0df;
-    border: #989897 1px solid;
-    border-radius: 2px;
-    font-size: 12px;
-    cursor: pointer;
-}
 .form__input--checkbox label {
     display: inline-block;
     margin-right: 30px;
